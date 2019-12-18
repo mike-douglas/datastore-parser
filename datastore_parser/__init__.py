@@ -1,7 +1,8 @@
 from luaparser import ast
 from .parser import LUAParser
 
-def lua_to_dict(src):
+
+def lua_to_dict(src) -> dict:
 
     tree = ast.parse(src)
     parser = LUAParser()

@@ -23,5 +23,5 @@ setup(
 
     packages=find_packages(),
 
-    install_requires = dependencies,
+    install_requires=dependencies,
 )
